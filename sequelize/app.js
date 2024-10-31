@@ -16,6 +16,10 @@ const main = async () => {
     await user.save();
 
     console.log(user.toJSON());
+
+    const users = await User.findAll();
+
+    console.log(users);
 };
 
 main();
