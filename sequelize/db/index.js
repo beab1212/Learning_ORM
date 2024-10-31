@@ -12,6 +12,7 @@ const sequelize = new Sequelize(
     config.password,
     {
         ...config,
+        logging: env ===  'production' ? false : customLog.query,
     },
 );
 
