@@ -15,7 +15,7 @@ const main = async () => {
 
     await user.save();
 
-    console.log(users.toJSON());
+    console.log(user.toJSON());
 };
 
 main();
