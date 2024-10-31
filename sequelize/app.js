@@ -10,6 +10,12 @@ const main = async () => {
     } catch (error) {
         customLog.error('Unable to connect to the database:', error);
     }
+
+    const user = new User({ firstName: 'Biruk' });
+
+    await user.save();
+
+    console.log(users.toJSON());
 };
 
 main();
