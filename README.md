@@ -10,4 +10,5 @@
 	migration
 	seed
 	eager loading
+	hooks
 
