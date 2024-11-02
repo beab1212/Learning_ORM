@@ -6,5 +6,5 @@
 	data update
 	data deletion
 	aggregation
-	
+	paranoid
 
