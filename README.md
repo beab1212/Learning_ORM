@@ -2,4 +2,5 @@
 ## For SQL and Mongodb
 ### Topics
 	data selection(query)
+	data insertion
 
