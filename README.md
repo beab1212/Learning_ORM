@@ -7,4 +7,5 @@
 	data deletion
 	aggregation
 	paranoid
+	migration
 
