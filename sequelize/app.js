@@ -18,6 +18,10 @@ const main = async () => {
     console.log(user.toJSON());
 
     const users = await User.findAll();
+    
+    const result = await User.destroy({
+    	where: firstName: 'Biruk',
+    });
 
     console.log(users);
 };
