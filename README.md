@@ -8,4 +8,5 @@
 	aggregation
 	paranoid
 	migration
+	seed
 
