@@ -4,4 +4,5 @@
 	data selection(query)
 	data insertion
 	data update
+	data deletion
 
