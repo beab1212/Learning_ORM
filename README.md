@@ -5,4 +5,6 @@
 	data insertion
 	data update
 	data deletion
+	aggregation
+	
 
