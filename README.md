@@ -10,7 +10,7 @@
 	data update
 		Model.update({...})
 	data deletion
-		
+		Model.destroy({...})
 	aggregation
 	paranoid
 	migration
