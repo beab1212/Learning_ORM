@@ -2,6 +2,7 @@
 ## For SQL and Mongodb
 ### Topics
 	data selection(query)
+		Model.findAll()
 	data insertion
 	data update
 	data deletion
@@ -12,3 +13,4 @@
 	eager loading
 	hooks
 	isolation level
+
