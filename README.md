@@ -2,7 +2,8 @@
 ## For SQL and Mongodb
 ### Topics
 	data selection(query)
-		Model.findAll()
+		Model.findAll({})
+		MOdel.findByPk('')
 	data insertion
 	data update
 	data deletion
