@@ -8,7 +8,9 @@
 		Model.findAndCountAll({...})
 	data insertion
 	data update
+		Model.update({...})
 	data deletion
+		
 	aggregation
 	paranoid
 	migration
