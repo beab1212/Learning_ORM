@@ -3,7 +3,8 @@
 ### Topics
 	data selection(query)
 		Model.findAll({})
-		MOdel.findByPk('')
+		Model.findByPk('')
+
 	data insertion
 	data update
 	data deletion
