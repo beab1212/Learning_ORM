@@ -4,7 +4,7 @@
 	data selection(query)
 		Model.findAll({})
 		Model.findByPk('')
-
+		Model.findOrCreate({...})
 	data insertion
 	data update
 	data deletion
