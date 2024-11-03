@@ -5,6 +5,7 @@
 		Model.findAll({})
 		Model.findByPk('')
 		Model.findOrCreate({...})
+		Model.findAndCountAll({...})
 	data insertion
 	data update
 	data deletion
