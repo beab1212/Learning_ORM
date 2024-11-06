@@ -12,6 +12,7 @@
 	data deletion
 		Model.destroy({...})
 	aggregation
+		ModelA.hasOne(ModelB, {/* options */})
 	paranoid
 	migration
 	seed
