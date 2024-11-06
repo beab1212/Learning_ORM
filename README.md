@@ -15,6 +15,7 @@
 		ModelA.hasOne(ModelB, {/* options */})
 		ModelA.belongsTo(ModelB, {/* options */})
 		ModelA.hasMany(ModelB, {/* options */})
+		ModelA.belongsToMany(ModelB, { through: 'ModelC' })
 	paranoid
 	migration
 	seed
