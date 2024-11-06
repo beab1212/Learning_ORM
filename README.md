@@ -13,7 +13,8 @@
 		Model.destroy({...})
 	aggregation
 		ModelA.hasOne(ModelB, {/* options */})
-		ModelA.belongsTo(ModelB, /* options */})
+		ModelA.belongsTo(ModelB, {/* options */})
+		ModelA.hasMany(ModelB, {/* options */})
 	paranoid
 	migration
 	seed
