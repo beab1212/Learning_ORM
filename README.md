@@ -18,6 +18,7 @@
 		ModelA.belongsToMany(ModelB, { through: 'ModelC' })
 	paranoid
 		- A paranoid table is one that, when told to delete a record, it will not truly delete it.
+		- Instead, a special column called deletedAt will have its value set to the timestamp of that deletion request.
 	migration
 	seed
 	eager loading
