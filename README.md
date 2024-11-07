@@ -19,6 +19,14 @@
 	paranoid
 		- A paranoid table is one that, when told to delete a record, it will not truly delete it.
 		- Instead, a special column called deletedAt will have its value set to the timestamp of that deletion request.
+
+		class Post extends Model {}
+		Post.init({ /* attributes here */ }, {
+		  sequelize,
+		  paranoid: true,
+		  // If you want to give a custom name to the deletedAt column
+		  deletedAt: 'destroyTime'
+		});
 	migration
 	seed
 	eager loading
