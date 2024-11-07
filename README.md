@@ -17,6 +17,7 @@
 		ModelA.hasMany(ModelB, {/* options */})
 		ModelA.belongsToMany(ModelB, { through: 'ModelC' })
 	paranoid
+		- A paranoid table is one that, when told to delete a record, it will not truly delete it.
 	migration
 	seed
 	eager loading
