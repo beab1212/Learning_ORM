@@ -1,3 +1,4 @@
+// Initialize sequelize object
 import { Sequelize } from 'sequelize';
 import process from 'process';
 import { dbConfig } from '../config/config.js';
